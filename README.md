@@ -46,7 +46,7 @@ default_profiler.finish('Price calculator')
 Finally you can print the profiling summary
 
 ```python
-default_profiler.
+default_profiler.print_profile()
 ```
 
 ### Multiple profilers
