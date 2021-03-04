@@ -13,8 +13,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 install_requires = []
 
 setup(
-    name="profiler",
-    version=0.1,
+    name="profilerpy",
+    version=0.2,
     author="Taher Rahgooy",
     author_email="taher.rahgooy@gmail.com",
     description="A simple code profiling library.",
@@ -22,7 +22,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/Rahgooy/profiler",
     python_requires=">=3",
-    packages=['profiler'],
+    packages=['profilerpy'],
     license="",
     install_requires=install_requires,
     extras_require={

@@ -1,4 +1,4 @@
-from profiler import profile, Profiler, default_profiler
+from profilerpy import profile, Profiler, default_profiler
 import time
 
 customProfiler = Profiler()
